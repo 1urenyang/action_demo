@@ -1,4 +1,4 @@
-FROM lurenyang:edge
+FROM alpine:edge
 
 RUN set -eux \
     && apk update \
